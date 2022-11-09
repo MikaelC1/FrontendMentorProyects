@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.purple {
+    color: hsl(277, 64%, 61%);
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+
+}
+
+@font-face {
+    font-family: Inter-Fonts;
+    src: url(fonts//Font-titles/static/Inter-Bold.ttf);
+    font-weight: 400,700;
+}
+@font-face {
+    font-family: LexendDeca;
+    src: url(fonts/Font-pa/LexendDeca-VariableFont_wght.ttf);
+}
+h1 {
+    color: #fff;
+    font-family: Inter-Fonts;
+     font-weight: 400, 700;
+     
+    
+}
+h2 {
+    color:hsla(0, 0%, 100%, 0.6);
+    font-family: LexendDeca;
+    font-weight: 400;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: LexendDeca;
+    font-weight: 400;
+}
+.card {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: hsl(244, 38%, 16%);
+    text-align: center;
+}
+h3 {
+    color: #fff;
+}
+
+.title{
+    margin-bottom: 15px;
+    margin-top: 10%;
+    padding-left: 15%;
+    padding-right: 25%;
+    text-align: left;
+    
+}
+.paragraph{
+    margin-bottom: 15px;
+    margin-top: 5%;
+    padding-left: 15%;
+    padding-right: 30%;
+    text-align: left;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.text1{
+    display:flex;
+}
+.text2{
+    display:flex;
+}
+/* .attribution{
+    position: fixed;
+} */
+.image{
+    width: 600px;
+    height: 100%;
+     
+}
+
+.filter {
+    width: 600px;
+    height: 100%;
+    background-color: rgba(185, 43, 246, 0.461);
+}
